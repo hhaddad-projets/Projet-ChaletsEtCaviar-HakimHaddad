@@ -1,0 +1,296 @@
+
+/***********************************************************************************************************************************
+**********************************************|COMMON STYLE CSS|************************************************************
+************************************************************************************************************************************
+
+This file contains all the CSS used to modify the template single-chalets.php
+
+1---------------------------------- Footer ------------------------------------------------
+2---------------------------------- Sitemap -----------------------------------------------
+3---------------------------------- Forms -------------------------------------------------
+4---------------------------------- Footer_widgets ----------------------------------------
+5---------------------------------- Animations --------------------------------------------
+6---------------------------------- Header_widgets ----------------------------------------
+7---------------------------------- Plugin ajaxsearchlite ---------------------------------
+8---------------------------------- Plugin Stickymenu -------------------------------------
+9---------------------------------- Header_logo -------------------------------------------
+************************************************************************************************************************************
+***********************************************************************************************************************************/
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------|1- FOOTER|-----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+footer .footer_top_markup { padding: 0px 0px 10px 0px; }
+
+footer .footer_bar_markup { padding: 10px; }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------|2- SITEMAP|----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------containers of the sitempa--------------*/
+#post-1086 .entry-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin : 80px 0 80px 0;
+}
+
+.entry-content .wrap-html-sitemap {
+	-ms-flex-item-align: center;
+	align-self: center; }
+/*-----------------------------------------------------------*/
+
+.wrap-html-sitemap h2 { padding-top: 20px; text-align: center; }
+
+.wrap-html-sitemap ul {
+	display: inline-block;
+	padding: 20px 0 0 0;
+	width:100%;
+	
+	text-align: center;
+	
+	list-style-type: none;
+}
+
+.wrap-html-sitemap li { line-height: 50px; }
+
+.wrap-html-sitemap a:hover { text-decoration: underline; font-weight: bold; }
+
+@media all and (max-width: 3000px) { .wrap-html-sitemap h2 { font-size: 40px; } }
+
+@media all and (max-width: 600px) {
+	#post-1086 .entry-content {
+		margin : 10px 0 10px 0;
+	}
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------|3- FORMS|------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*there are 3 forms : 1 in the reservation page and 2 in the contact page*/
+
+.nf-field-element, /*block containing the input of the right form in the contact page*/
+.wpforms-submit-container /*block containing the submit button of the left form in the contact page*/ {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+/*input of the right form in the contact page*/
+#nf-field-12.ninja-forms-field.nf-element { width: 50%; }
+
+/*submit button of the right form in the contact page*/
+#nf-field-13.ninja-forms-field.nf-element { padding: 20px 40px 34px 40px; }
+
+/*--------------------containers of the reservation form--------------*/
+div.wp-block-booking-booking { 
+	display: -webkit-box; display: 
+	-ms-flexbox; display: flex; 
+	-webkit-box-pack: center; 
+	-ms-flex-pack: center; 
+	justify-content: center; 
+}
+
+.wpbc_structure_form { 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-box-orient: vertical; 
+	-webkit-box-direction: normal; 
+	-ms-flex-direction: column; 
+	flex-direction: column; 
+}
+/*-------------------------------------------------------------------*/
+
+/*submit button of the reservation form*/
+.wpbc_structure_form :nth-child(7) { 
+	-ms-flex-item-align: center; 
+	align-self: center; 
+}
+
+@media all and (max-width: 767px) {
+	.conteneur_formulaire1 { height: 70%; } /*container of the left form in the contact page*/
+
+	.conteneur_formulaire2 { height: 30%; } /*container of the right form in the contact page*/
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------|4- FOOTER_WIDGETS|-----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+div.bst-footer-info > div { padding: 30px 3px 30px 3px; } /*address in the footer*/
+
+@media all and (min-width: 768px;) and (max-width: 802px) {
+	/*4 blocks in the top-footer*/
+	div.st-col-md-3.st-col-sm-6.st-col-xs-12 { width: 40%; }
+
+	/*all the links in the top footer */
+	div.bst-hotel-footer-widget ul li { text-align: center; }
+}
+
+@media all and (max-width: 767px) {
+	div.bst-footer-info > div {
+		padding-top: 0px;
+
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 30px;
+		text-transform: none;
+		font-family: Quicksand, Verdana, sans-serif;
+		text-align: center;
+	}
+	
+	div.bst-hotel-footer-widget ul li { line-height: 20px; }
+
+	div.bst-hotel-footer-widget { padding-top: 10px; text-align: center; }
+
+	div.st-col-md-3.st-col-sm-6.st-col-xs-12 {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column; 
+		-webkit-box-align: center; 
+		-ms-flex-align: center; 
+		align-items: center;
+	}
+
+	/*2 blocks in the bottom-footer*/
+	div.st-col-md-6.st-col-xs-12 { padding: 0px; }
+
+	/*copyright*/
+	aside#custom_html-1 { width: 80%; position: relative; }
+
+	/*social links*/
+	aside#custom_html-2 {
+		width: 20%;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+	}
+
+}
+
+@media all and (max-width: 543px) { div.bst-footer-info > div { padding: 3px; } }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------|5- ANIMATIONS|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*animations used on the template signle-chalets*/
+@-webkit-keyframes fadeInRight {
+    0% { opacity: 0; -webkit-transform: translateX(50px); }
+
+    100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+    0% { opacity: 0; transform: translateX(50px); }
+
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% { opacity: 0; -webkit-transform: translateX(-50px); }
+
+    100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translateX(-50px); }
+
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------|6- HEADER_WIDGETS|-----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*navigation menu button when the window gets too small*/
+.bst-button-wrap button:focus,
+.bst-button-wrap button:hover { border: none; background-color: transparent; }
+
+@media all and (max-width: 1063px) {
+	#primary-menu a {
+		padding-right: 20px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.bst-button-wrap button { padding: 1px; margin-right: 10px; }
+	
+	#primary-menu li {
+		display: inline-block;
+		padding: 0px;
+
+		border-bottom: 1px solid grey;
+
+		text-align: right;
+	}
+
+	#primary-menu a {
+		display: inline-block;
+		padding: 4px;
+	}
+	
+	/*container of the links in the navigation menu*/
+	div.st-site-nav {
+		padding: 0;
+		border-top: 1px solid grey;
+	}
+
+	/*responsive header for the articles, blog and single-chalets*/
+	.bst-title-section { height: auto; }
+}
+
+@media all and (max-width: 440px) {
+	#primary-menu a {
+		font-size: 13px ;
+	}
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------|7- PLUGIN AJAXSEARCHLITE|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+.wpdreams_asl_container {
+	display: inline-block;
+}
+
+div#ajaxsearchlite1 .probox .proinput input {
+	position: absolute;
+	bottom: -5px;
+
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------|8- PLUGIN STICKYMENU|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*responsive stickymenu plugin*/
+div#mysticky-nav .myfixed { height: auto; }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------|9- HEADER_LOGO|--------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*the CSS modifications made here only affected the header logo*/
+
+@media all and (max-width: 1063px) { .custom-logo { width: 200px; } }
+
+@media all and (max-width: 767px) {	.custom-logo { width: 150px; } }
+
+

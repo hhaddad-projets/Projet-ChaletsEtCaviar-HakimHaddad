@@ -1,0 +1,275 @@
+/**
+ * Bstone Light CSS
+ **/
+
+ .bst-search-widget {
+     position: relative;
+ }
+
+ .bst-search-widget .bst-search-icon {
+    top: 5px;
+    right: 0px;
+    position: absolute;
+ }
+
+ .bst-search-widget.bst-search-animated .bst-search-icon, 
+ .bst-search-widget.bst-search-fullscreen .bst-search-icon {
+    position: relative;
+ }
+
+ header .bst-search-widget .bst-search-icon {
+    margin-right: 15px;
+ }
+
+ header .bst-search-animated .bst-search-icon, 
+ header .bst-search-fullscreen.bst-search-widget .bst-search-icon {
+    margin-right: 0px;
+ }
+
+ .bst-search-widget .bst-search-icon .bstone-search-icon {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+ }
+
+ .bst-search-animated .bst-search-icon .bstone-search-icon,
+ .bst-search-widget.bst-search-fullscreen .bst-search-icon .bstone-search-icon {
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    width: auto;
+    text-align: center;
+ }
+
+ .bst-search-widget label {
+    width: 100%;
+ }
+
+ #page .bst-search-widget .search-form input[type="submit"].search-submit {
+     display: none;
+ }
+
+ .bst-fullscreen-search-cnt {
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 999999;
+     background: rgba(0, 0, 0, 0.9);
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translate(0px, -100%) scale(0, 0);
+    -moz-transform: translate(0px, -100%) scale(0, 0);
+    -o-transform: translate(0px, -100%) scale(0, 0);
+    -ms-transform: translate(0px, -100%) scale(0, 0);
+    transform: translate(0px, -100%) scale(0, 0);
+    opacity: 0;
+ }
+
+ .bst-fullscreen-search-cnt .bst-search-inner-cnt {
+     top: 50%;
+     left: 50%;
+     margin-top: -35px;
+     position: absolute;
+     margin-left: -250px;
+ }
+
+ @media only screen and (max-width: 525px) {
+    .bst-fullscreen-search-cnt .bst-search-inner-cnt {
+        width: 96%;
+        left: 0;
+        margin-left: 2%;
+    }
+ }
+
+ .bst-fullscreen-search-cnt.open {
+    -webkit-transform: translate(0px, 0px) scale(1, 1);
+    -moz-transform: translate(0px, 0px) scale(1, 1);
+    -o-transform: translate(0px, 0px) scale(1, 1);
+    -ms-transform: translate(0px, 0px) scale(1, 1);
+    transform: translate(0px, 0px) scale(1, 1);
+    opacity: 1;
+  }
+
+  body #page .bst-fullscreen-search-cnt form input[type="search"] {
+    height: 70px;
+    width: 500px;
+    font-size: 24px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .bst-fullscreen-search-cnt .bst-closebtn {
+      top: 60px;
+      right: 50px;
+      width: 40px;
+      height: 40px;
+      display: block;
+      cursor: pointer;
+      line-height: 40px;
+      position: absolute;
+      background: #fff;
+      text-align: center;
+      border-radius: 100%;
+  }
+
+  .bst-close-icon:before {
+    content: "\e5cd";
+    font-family: 'Bstone';
+    text-decoration: inherit;
+  }
+
+  .bst-closebtn i {
+    font-size: 26px;
+    font-style: normal;
+  }
+
+  .bst-search-widget.bst-search-animated .bst-search-icon {
+    z-index: 999999;
+  }
+
+  .bst-search-widget.bst-search-animated form {
+      width: 0;
+      right: 0;
+      top: -12px;
+      z-index: 9999;
+      overflow: hidden;
+      position: absolute;
+      -webkit-transition: width 0.3s;
+      -moz-transition: width 0.3s;
+      transition: width 0.3s;
+  }
+
+  .bst-search-widget.bst-search-animated form.open {
+    width: 250px;
+  }
+
+  .bst-search-widget.bst-search-animated input[type="search"] {
+    width: 100%;
+  }
+
+  /* Latest Articles Widget Styles */
+  #tertiary .bst-popular-posts-widget ul li,
+  #secondary .bst-popular-posts-widget ul li {
+      padding: 0px;
+  }
+
+  .bst-popular-posts-widget ul li,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li {
+      display: table;
+  }
+
+  .bst-popular-posts-widget li > a,
+  .bst-popular-posts-widget li > span,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li > a,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li > span {
+      display: table-cell;
+      vertical-align: middle;
+  }
+
+  .bst-popular-posts-widget ul.bst-posts-widget-large li,
+  .bst-popular-posts-widget ul.bst-posts-widget-large li > a,
+  .bst-popular-posts-widget ul.bst-posts-widget-large li > span,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li.first-large,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li.first-large > a,
+  .bst-popular-posts-widget.bst-popular-posts-first-large li.first-large > span {
+      display: block;
+  }
+
+  .bst-popular-posts-widget .normal-thumbnail .bst-widget-thumb {
+      width: 120px;
+      padding-right: 20px;
+  }
+
+  .bst-popular-posts-widget ul.bst-posts-widget-large li .bst-widget-thumb {
+      width: 100%;
+      padding-right: 0px;
+  }
+
+  .bst-popular-posts-widget li .post-date {
+      display: block;
+      padding-top: 5px;
+  }
+
+  .bst-popular-posts-widget li.first-large,
+  .bst-popular-posts-widget .bst-posts-widget-large li.normal-thumbnail {
+      position: relative;
+  }
+
+  .bst-popular-posts-widget li.first-large .bst-widget-post-cnt,
+  .bst-popular-posts-widget .bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt {
+      bottom: 0;
+      padding: 15px;
+      color: #ffffff;
+      position: absolute;
+  }
+  
+  #secondary aside ul li.first-large .bst-widget-post-cnt a,
+  #secondary .widget ul li.first-large .bst-widget-post-cnt a,
+  #tertiary aside ul li.first-large .bst-widget-post-cnt a,
+  #tertiary .widget ul li.first-large .bst-widget-post-cnt a,
+  .bst-popular-posts-widget li.first-large .bst-widget-post-cnt .entry-meta,
+  #secondary aside ul.bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt a,
+  #secondary .widget ul.bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt a,
+  #tertiary aside ul.bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt a,
+  #tertiary .widget ul.bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt a,
+  .bst-popular-posts-widget .bst-posts-widget-large li.normal-thumbnail .bst-widget-post-cnt .entry-meta {
+      color: #ffffff;
+  }
+
+  .bst-popular-posts-widget li.first-large .bst-widget-thumb,
+  .bst-popular-posts-widget .bst-posts-widget-large li.normal-thumbnail {
+      position: relative;
+  }
+
+  .bst-popular-posts-widget .bst-posts-widget-large li.normal-thumbnail .bst-widget-thumb:before,
+  .bst-popular-posts-widget li.first-large .bst-widget-thumb:before {
+      top: 0;
+      left: 0;
+      width: 100%;
+      content: " ";
+      height: 100%;
+      position: absolute;
+      
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+36,000000+100&0+36,0.7+99 */
+      background: -moz-linear-gradient(top, rgba(0,0,0,0) 36%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(0,0,0,0) 36%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 36%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  #tertiary .bst-popular-posts-widget ul li.bst-post-list-separator,
+  #secondary .bst-popular-posts-widget ul li.bst-post-list-separator {
+      display: block;
+      margin: 10px 0px;
+      padding-bottom: 1px;
+  }
+
+  #tertiary .bst-popular-posts-widget ul.posts-separator li.bst-post-list-separator,
+  #secondary .bst-popular-posts-widget ul.posts-separator li.bst-post-list-separator {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+  }
+
+  #tertiary .bst-popular-posts-widget ul.posts-separator li.bst-post-list-separator.bst-sep-fl,
+  #secondary .bst-popular-posts-widget ul.posts-separator li.bst-post-list-separator.bst-sep-fl {
+      border-bottom: none;
+  }
+
+  .bst-social-icons-widget-cnt ul li {
+      display: inline-block;
+  }
+
+  .bst-social-icons-widget-cnt ul li a {
+      display: inline-block;
+      box-sizing: content-box;
+      line-height: 1;
+      text-align: center;
+  }

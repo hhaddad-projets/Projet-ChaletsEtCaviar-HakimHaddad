@@ -1,0 +1,10 @@
+.mysticky-general,.mysticky-style,.mysticky-advanced,.mysticky-hideform,.mysticky-hideformreset{display:none;}
+.main-content {float:left;width:65%;}
+.main-sidebar {float:right;width:30%;background:#ffffff;border: 1px solid #e5e5e5;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);}
+.main-sidebar h3 {margin: 0;padding: 8px 12px;border-bottom: 1px solid #ececec;}
+.main-sidebar .inner {padding:10px;}
+.main-sidebar p {padding:8px;margin:0;border-top:solid 1px #e5e5e5;}
+.mystickyinput {padding-top: 6px;}
+@media screen and (max-width: 782px) {
+.main-content, .main-sidebar { width:100%; float:none;clear:both;}
+}

@@ -1,0 +1,378 @@
+
+/***********************************************************************************************************************************
+**********************************************|SINGLE CHALETS STYLE CSS|************************************************************
+************************************************************************************************************************************
+
+This file contains all the CSS used to modify the template single-chalets.php
+
+1-------- Layout : basics elements (h1 title etc) --------------------------------------------------
+2-------- Base : main container and main styles ----------------------------------------------------
+3-------- Commodities : container and elements of commodities offered by Chalets & Caviar ---------- 
+4-------- Carousel : container and elements of the pictures carousel -------------------------------
+5-------- Specifications : container and specifics equipements of every chalet --------------------- 
+6-------- Separator : style of the line which separates 2 blocks -----------------------------------
+7-------- Reserve_buy : container and elements of the block which show price and call to action ---- 
+
+************************************************************************************************************************************
+***********************************************************************************************************************************/
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------|1- LAYOUT|-----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*Style of the basic elements in the main container*/
+
+.l-container-chalets__title {
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+	text-align: center;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	font-family: Cinzel Decorative, Cinzel, Arial, "Times New Roman";
+	text-transform: capitalize;
+	font-size: 80px;
+	font-weight: bold;
+	color: #244C5C;
+}
+
+.l-container-chalets__reference {
+	width: auto;
+	-ms-flex-item-align: center;
+	align-self: center;
+	padding: 4px 8px 4px 4px;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background-color: #244C5C;
+
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: #D9BE99;
+}
+
+.l-container-chalets__address {
+	padding: 10px;
+	margin-top: 25px;
+	
+	background-color: #244c5c;
+
+	color: #D9BE99;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+}
+
+@media all and (max-width: 767px) {
+	.l-container-chalets__title { font-size: 60px; font-weight: bold; }
+
+	.l-container-chalets__address { margin-top: 15px; font-size: 18px; }
+}
+
+@media all and (max-width: 440px) {
+	.l-container-chalets__title { padding-top: 10px; font-size: 30px; }
+
+	.l-container-chalets__reference { font-size: 18px; }
+
+	.chalets-reserve_buy,
+	.chalets-commodities,
+	.chalets-specifications { margin-top: 15px; }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------|2- BASE|-----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*Style of the main container*/
+
+.l-container-chalets {
+	padding: 50px 15px 50px 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+
+	font-family: Cinzel, Arial, "Times New Roman";
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------|3- COMMODITIES|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*Here are the styles of the commodities offered by Chalets & Caviar for the rent or the buying of a chalet*/
+.chalets-commodities { 
+	margin-top: 50px; 
+	-ms-flex-item-align: center;
+	align-self: center; 
+} 
+
+.chalets-commodities__title {
+	text-align: center;
+	font-size: 40px;
+	color: #244C5C;
+}
+
+.chalets-commodities__title__mark {
+	color: #D9BE99;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.chalets-commodities__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px;
+}
+
+.chalets-commodities__list__item {
+	width: 25%;
+	display: inline-block;
+
+	text-align: center;
+}
+
+@media all and (max-width: 440px) {
+	.chalets-commodities__title { font-size: 30px; }
+	
+	.chalets-commodities__list__item { font-size: 10px; font-weight: bold; }
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------|4- CAROUSEL|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*The carousel is a snippet i found here https://bootsnipp.com/snippets/featured/simple-responsive-carousel. 
+* I modified it a little bit to integrate it in the template single-chalet. Also the fact that it is an external
+code let met not completely modify its class names to integer them in my class names convention */
+
+.section-carousel { /*container of the caroussel*/
+    padding: 10px 0; 
+    -ms-flex-item-align: center; 
+    align-self: center; 
+} 
+
+.carousel-indicators { /*controllers and indicators, 1 per image*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+
+    text-align: right;
+}
+
+.carousel-inner { border:4px solid #244C5C; -webkit-box-shadow: 10px 10px 34px #244C5C; box-shadow: 10px 10px 34px #244C5C; width:70%; } /*container of the images*/
+
+/*Responsive images*/
+
+.item__img--active,
+.item__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right { background-image: none; } /*controllers, left = precedent image and right = next image*/
+
+@media all and (max-width: 1000px) { .carousel-indicators { display: none; } }
+
+@media screen and (min-width: 768px) { .section-carousel { padding: 1.5em 0; } }
+
+@media screen and (min-width: 992px) { .container-carousel { max-width: 930px; } }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------|5- SPECIFICATIONS|----------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+.chalets-specifications { /*container of the description and the specific equipements of the chalet*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-top: 50px;
+}
+	
+.chalets-specifications__description {
+	max-width: 50%;
+	padding: 10px;
+
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	
+	font-family: Quicksand, Verdana, sans-serif;
+	font-size: 15px;
+
+	-webkit-animation: fadeInLeft 3s;
+	animation: fadeInLeft 3s;
+}
+
+/*title of the description and the specific equipements*/
+.chalets-specifications__description__header,
+.chalets-specifications__container__informations__header { font-style: italic; } 
+
+.chalets-specifications__container { /*container used to place the next container at the right of the screen*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-animation: fadeInRight 3s;
+	animation: fadeInRight 3s;
+}
+
+.chalets-specifications__container__informations { 
+	min-width: 50%;
+	padding: 10px;
+	
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.5) 0%, rgba(36,76,92,1) 30%);
+	background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.5) 0%, rgba(36,76,92,1) 30%);
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(36,76,92,1) 30%);
+	-webkit-box-shadow: 0px 0px 20px rgba(36,76,92,0.5);
+	box-shadow: 0px 0px 20px rgba(36,76,92,0.5);
+
+	color: #D9BE99;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	font-size: 30px;
+}
+	
+
+.chalets-specifications__container__informations__equipements-list { /*List of all the specific equipements of the chalet*/
+	display:inline;
+
+	text-align: justify;
+
+	list-style-type: none;
+}
+
+.chalets-specifications__container__informations__equipements-list__item {	
+	margin: 5px;
+	padding-bottom: 4px;
+	
+	background-color: #D9BE99;
+
+	color: #244C5C;
+	text-align: center;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
+
+/*the :hover here is just for a style effect, it is not applying on a link*/
+.chalets-specifications__container__informations__equipements-list__item:hover { 
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+}
+
+@media all and (max-width: 767px) { /*make the 2 elements going one under the other*/
+	.chalets-specifications__description,
+	.chalets-specifications__container__informations { min-width: 100%; font-size : 20px; }
+}
+
+@media all and (max-width: 440px) {
+	.chalets-specifications__description {
+		font-size : 13px;
+	}
+
+	.chalets-specifications__container__informations__endtitle {
+		font-size:18px;
+	}
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------|6- SEPARATOR|---------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*Style of the separator (type div) used twice in the template single-chalets*/
+
+.separator {
+	width: 50%;
+	-ms-flex-item-align: center;
+	align-self: center;
+	
+	border: 1px solid rgba(36,76,92,0.7);
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------|7- RESERVE_BUY|-------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*Here is the style of the last block in the template single_chalet. It is a dynamic block which depends of the category
+* of the chalet (for sale or for rent) so there are different styles for the 2 cases */
+
+.chalets-reserve_buy { /*container used to center the block on the middle of the page*/
+	margin-top: 50px;
+	width: 80%;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.chalets-reserve_buy__title { /*category of the chalet*/
+	margin-bottom: 0px;
+	padding: 10px;
+
+	background-color: #244C5C;
+
+	color: #D9BE99;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	font-family: Cinzel Decorative, Cinzel, Arial, "Times New Roman";
+}
+
+.chalets-reserve_buy__container { /*container used to place the price and the call-to-action */
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; } 
+
+.chalets-reserve_buy__container__price,
+.chalets-reserve_buy__container__action {
+	min-width: 50%;
+	padding: 10px;
+
+	font-size: 30px;
+	color: #244C5C;
+	text-align: center;
+}
+
+.chalets-reserve_buy__container__action { background-color: #D9BE99; font-family: Cinzel Decorative, Cinzel, Arial, "Times New Roman"; }
+
+.chalets-reserve_buy__container__action:hover { border: 1px solid #244C5C; }
+
+.chalets-reserve_buy__container__action--link { color: #244C5C; }
+.chalets-reserve_buy__container__action--link:hover { color: black; text-decoration: none; }
+.chalets-reserve_buy__container__action--link:selection { color: black; text-decoration: none; } /*modifying the style imported with the carousel*/
+
+@media all and (max-width: 660px) {
+	.chalets-reserve_buy__container__price,
+	.chalets-reserve_buy__container__action,
+	.chalets-reserve_buy__container { font-size: 20px; }
+
+	.chalets-reserve_buy { width: 100%; }
+}
+
+@media all and (max-width: 440px) {
+	.chalets-reserve_buy__container__price,
+	.chalets-reserve_buy__container__action { font-size: 15px; }
+
+
+
+
+

@@ -1,0 +1,92 @@
+#wp404arsp_settings a.nav-tab{
+	outline:none;
+	box-shadow:none;
+	text-decoration:none;
+    transition-property:none;
+}
+
+#wp404arsp_settings h2.nav-tab-wrapper{
+	margin-bottom:5px !important;
+	margin-top:20px !important;
+	display:block;
+}
+
+#wp404arsp_settings .nav-tab-panel:not(#settings){
+	display:none;
+}
+
+#wp404arsp_settings #wp404arsp_settings_fallback_url{
+    width:330px;
+}
+
+#wp404arsp_settings #wp404arsp_settings_fallback_url.disabled{
+    pointer-events:none;
+}
+
+#wp404arsp_settings #wp404arsp_settings_priority{
+    width: 60px;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies{
+    display:block;
+    border:1px solid #ddd;
+    max-width:300px;
+    max-height:148px;
+    overflow:auto;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types input,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies input{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types label,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies label{
+    display:block;
+    padding:5px;
+    margin:0 !important;
+    position:relative;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types label:hover,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies label:hover{
+    background:#f1f1f1;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types input:checked + label,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies input:checked + label{
+    background:#0073aa;
+    color:#c6d6dd;
+}
+
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_post_types input:checked + label:after,
+#wp404arsp_settings #wp404arsp_settings_rules_redirection_exclude_taxonomies input:checked + label:after{
+    position: absolute;
+    content: "Excluded";
+    right: 5px;
+    font-size: 10px;
+}
+
+#wp404arsp_settings #wp404arsp_settings_redirection_preview .request{
+    width:500px;
+}
+
+#wp404arsp_settings p.submit{
+    padding:0;
+    margin-top:15px;
+}
+
+#wp404arsp_settings p.submit .loading.spinner{
+    float:none;
+    vertical-align:top;
+}
+
+#wp404arsp_settings #postbox-container-1 .logo{
+    max-width:100%;
+    height:auto;
+    margin:20px auto 30px;
+    display:block;
+}

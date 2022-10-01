@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Hotel were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888
+Data file = /Users/karimbenzema/Documents/wordpress/wp-content/uploads/2019/01/demo-content-import-file_2019-01-04__13-36-23.xml
+Widget file = /Users/karimbenzema/Documents/wordpress/wp-content/uploads/2019/01/demo-widgets-import-file_2019-01-04__13-36-23.json
+Customizer file = /Users/karimbenzema/Documents/wordpress/wp-content/uploads/2019/01/demo-customizer-import-file_2019-01-04__13-36-23.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Footer Bar Section 1 : 
+
+HTML personnalisé - No Title - Imported
+
+Footer Bar Section 2 : 
+
+HTML personnalisé - No Title - Imported
+
+Footer Widget Area 1 : 
+
+HTML personnalisé - No Title - Imported
+
+Footer Widget Area 2 : 
+
+HTML personnalisé - No Title - Imported
+
+Footer Widget Area 3 : 
+
+HTML personnalisé - No Title - Imported
+
+Footer Widget Area 4 : 
+
+HTML personnalisé - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

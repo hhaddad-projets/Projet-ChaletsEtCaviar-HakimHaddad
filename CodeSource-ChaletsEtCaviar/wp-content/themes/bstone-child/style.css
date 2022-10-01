@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Bstone Child
+ Description:  Bstone Child Theme
+ Author:       Hakim Haddad
+ Author URI:   http://example.com
+ Template:     bstone
+ Version:      1.0.0
+*/
+
+
+/********************************************************************************************************************
+**********************************************|INDEX CSS|************************************************************
+*********************************************************************************************************************
+This CSS file contains @import links the stylesheets used in the Bstone child theme. Please note that Chalets & Caviar 
+is a Wordpress site, so you are only going to find here the modifications that have made to the theme after using 
+Elementor and the Appearence menu of the dashboard.
+
+You will find two stylesheets, they contain :
+1) The CSS modifications that affects all the site (common-style)
+2) The CSS modifications used to build the appaerance of the template single-chalets (single-chalets-style)
+
+Also i tried to apply a class names convention (based on the BEM convention) on the class names that i could acess.
+*********************************************************************************************************************
+********************************************************************************************************************/
+
+
+/**********************************************|COMMON STYLE|*******************************************************/
+
+@import url('common-style.css');
+
+
+/*****************************************|SINGLE CHALETS STYLE|****************************************************/
+
+@import url('single-chalets-style.css');

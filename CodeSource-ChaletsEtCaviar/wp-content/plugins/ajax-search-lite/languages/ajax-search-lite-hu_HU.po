@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax Search Lite\n"
+"POT-Creation-Date: 2015-07-30 17:13+0200\n"
+"PO-Revision-Date: 2015-07-30 17:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../js\n"
+"X-Poedit-SearchPathExcluded-1: ../backend/settings/assets\n"
+
+#: ../backend/analytics.php:7
+msgid "Enable search Google Analytics integration?"
+msgstr "Google Analytics integráció engedélyezése"
+
+#: ../backend/analytics.php:12
+msgid "Google analytics pageview string"
+msgstr "Google analytics oldal-megtekintés szövege"
+
+#: ../backend/analytics.php:16
+msgid ""
+"This is how the pageview will look like on the google analytics website. Use "
+"the {asl_term} variable to add the search term to the pageview."
+msgstr ""
+"Így fog kinézni egy oldalmegjelenés a google analytics panelen. Használd az "
+"{asl_term} változót a kulcsszó megjelöléséhez. "
+
+#: ../backend/analytics.php:40
+msgid "Analytics options"
+msgstr "Analytics beállítások"
+
+#: ../backend/analytics.php:45
+msgid "Result"
+msgstr "Eredmény"
+
+#: ../backend/analytics.php:47
+msgid ""
+"After some time you should be able to see the hits on your analytics board."
+msgstr ""
+"Rövid idő elteltvével látni fogod a kereséseket az analytics weblapján."
+
+#: ../backend/settings.php:44
+msgid "Search shortcode:"
+msgstr "Kereső shortkód"
+
+#: ../backend/settings.php:47
+msgid "Search shortcode for templates:"
+msgstr "Kereső shortkód témákhoz (php)"
+
+#: ../backend/settings.php:58
+msgid "General Options"
+msgstr "Általános Beállítások"
+
+#: ../backend/settings.php:59 ../backend/settings.php:75
+msgid "Image Options"
+msgstr "Képbeállítások"
+
+#: ../backend/settings.php:60
+msgid "Frontend Options"
+msgstr "Front-end beállítások"
+
+#: ../backend/settings.php:61
+msgid "Layout options"
+msgstr "Megjelenés"
+
+#: ../backend/settings.php:62
+msgid "Advanced"
+msgstr "Haladó"
+
+#: ../backend/settings.php:67
+msgid "Genearal Options"
+msgstr "Általános"
+
+#: ../backend/settings.php:83
+msgid "Frontend Search Settings"
+msgstr "Front-end beállítások"
+
+#: ../backend/settings.php:91
+msgid "Layout Options"
+msgstr "Megjelenés"
+
+#: ../backend/settings.php:99
+msgid "Advanced Options"
+msgstr "Haladó"
+
+#: ../backend/settings.php:119
+msgid "Ajax Search Lite settings saved!"
+msgstr "Beállítások mentve!"
+
+#: ../backend/settings/class/customfields.class.php:22
+msgid "Available public custom fields types"
+msgstr "Elérhető Egyedi Mezők"
+
+#: ../backend/settings/class/customfields.class.php:31
+msgid "Drag here the custom fields you want to use!"
+msgstr "Húzd ide az Egyedi Mezőket, amelyeket használni szeretnél"
+
+#: ../backend/settings/class/customposttypes.class.php:23
+msgid "Available post types"
+msgstr "Elérhető Bejegyzés Típusok"
+
+#: ../backend/settings/class/customposttypes.class.php:32
+msgid "Drag here the post types you want to use!"
+msgstr "Húzd ide a Bejegyzés Típusokat, amiket használni szeretnél"
+
+#: ../backend/tabs/instance/advanced_options.php:3
+msgid "Strip shortcodes from the content?"
+msgstr "Shortkódok törlése a tartalomból"
+
+#: ../backend/tabs/instance/advanced_options.php:7
+msgid ""
+"When enabled, the shortcodes from the content will be removed instead of "
+"executed."
+msgstr "Törli a shortkódokat ahelyett, hogy végrehajtaná őket."
+
+#: ../backend/tabs/instance/advanced_options.php:12
+msgid "Title Field"
+msgstr "Cím mező"
+
+#: ../backend/tabs/instance/advanced_options.php:21
+msgid "Description Field"
+msgstr "Leírás mező"
+
+#: ../backend/tabs/instance/advanced_options.php:30
+msgid "Exclude categories"
+msgstr "Kihagyandó kategóriák"
+
+#: ../backend/tabs/instance/advanced_options.php:37
+msgid "Exclude Posts by ID's (comma separated post ID-s)"
+msgstr "Kihagyandó Bejegyzések (vesszővel elválaszott ID számok)"
+
+#: ../backend/tabs/instance/advanced_options.php:43
+msgid "Exclude Terms by ID (comma separated term ID-s)"
+msgstr "Kihagyandó kifejezések (tag, taxonomy term) ID alapján"
+
+#: ../backend/tabs/instance/advanced_options.php:47
+msgid ""
+"Use this field to exclude any taxonomy term (tags, product categorories "
+"etc..)"
+msgstr ""
+"Ezzel az opcióval kihagyhatsz tartalmakat, amelyek ezekhez a kifejezésekhez "
+"kapcsolódnak. (tagek, kategóriák, egyéb..)"
+
+#: ../backend/tabs/instance/advanced_options.php:52
+msgid "WPML compatibility"
+msgstr "WPML kompatibilitás"
+
+#: ../backend/tabs/instance/frontend_options.php:3
+msgid "Show search settings on the frontend?"
+msgstr "Beállítások mutatása front-enden?"
+
+#: ../backend/tabs/instance/frontend_options.php:8
+msgid ""
+"The default values of the checkboxes on the frontend are the values set "
+"above."
+msgstr "A jelölőnégyzetek alapértékei az itt beállított értékek lesznek"
+
+#: ../backend/tabs/instance/frontend_options.php:12
+msgid "Show exact matches selector?"
+msgstr "Csak teljesen egyező találatok jelölő mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:20
+msgid "Show search in posts selector?"
+msgstr "Bejegyzés jelölőnégyzet mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:27
+msgid "Show search in pages selector?"
+msgstr "Oldal jelölőnégyzet mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:34
+msgid "Show search in title selector?"
+msgstr "Keresés a címben jelölőnégyzet mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:41
+msgid "Show search in content selector?"
+msgstr "Keresés a tartalomban jelölőnégyzet mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:47
+msgid "Show search in custom post types selectors"
+msgstr "Keresés más bejegyzés típusokban jelölőnégyzet mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:52
+msgid ""
+"Nor recommended if you have more than 500 categories! (the HTML output will "
+"get too big)"
+msgstr "Nem ajánlott ha több, mint 500 kategória található a blogodon"
+
+#: ../backend/tabs/instance/frontend_options.php:54
+msgid "Show the categories selectors?"
+msgstr "Kategória jelölőnégyzetek mutatása"
+
+#: ../backend/tabs/instance/frontend_options.php:59
+msgid "Show the uncategorised category?"
+msgstr "Mutassa a Kategorizálatlan jelölőt"
+
+#: ../backend/tabs/instance/frontend_options.php:63
+msgid "Select which categories exclude"
+msgstr "Válaszd ki, mely kategóriák ne jelenjenek meg"
+
+#: ../backend/tabs/instance/frontend_options.php:70
+msgid "Categories filter box header text"
+msgstr "A kategória doboz fejléc szövege"
+
+#: ../backend/tabs/instance/frontend_options.php:76
+#: ../backend/tabs/instance/general_options.php:130
+#: ../backend/tabs/instance/image_options.php:106
+#: ../backend/tabs/instance/layout_options.php:21
+msgid "Save options!"
+msgstr "Beállítások mentése!"
+
+#: ../backend/tabs/instance/general_options.php:12
+msgid "Theme"
+msgstr "Téma"
+
+#: ../backend/tabs/instance/general_options.php:21
+msgid "Search in posts?"
+msgstr "Keresés bejegyzésekben?"
+
+#: ../backend/tabs/instance/general_options.php:28
+msgid "Search in pages?"
+msgstr "Keresés oldalakon?"
+
+#: ../backend/tabs/instance/general_options.php:34
+msgid "Search in custom post types"
+msgstr "Keresés más típusokban"
+
+#: ../backend/tabs/instance/general_options.php:41
+msgid "Search in title?"
+msgstr "Keresés a címben?"
+
+#: ../backend/tabs/instance/general_options.php:48
+msgid "Search in content?"
+msgstr "Keresés a tartalomban?"
+
+#: ../backend/tabs/instance/general_options.php:55
+msgid "Search in post excerpts?"
+msgstr "Keresés a kivonatokban?"
+
+#: ../backend/tabs/instance/general_options.php:61
+msgid "Search in custom fields"
+msgstr "Keresés az Egyedi mezőkben?"
+
+#: ../backend/tabs/instance/general_options.php:69
+msgid "Show exact matches only?"
+msgstr "Csak teljesen egyező találatok mutatása?"
+
+#: ../backend/tabs/instance/general_options.php:76
+msgid "Search in terms? (categories, tags)"
+msgstr "Keresés  kifejezésekben (kategória, tag, stb..)"
+
+#: ../backend/tabs/instance/general_options.php:82
+msgid "Result ordering"
+msgstr "Eredmények elrendezése"
+
+#: ../backend/tabs/instance/general_options.php:91
+msgid "Trigger search when clicking on search icon?"
+msgstr "A keresés indítása a kereső ikonra való kattintáskor"
+
+#: ../backend/tabs/instance/general_options.php:98
+msgid "Redirect to search results page when clicking on search icon?"
+msgstr ""
+"Átirányítás az alapértelmezett keresési eredményekhez ikonra való "
+"kattintáskor?"
+
+#: ../backend/tabs/instance/general_options.php:105
+msgid "Trigger search when typing?"
+msgstr "Keresés indítása gépelés közben?"
+
+#: ../backend/tabs/instance/general_options.php:112
+msgid "Minimal character count to trigger search"
+msgstr "Minimális karakterszám a keresés indításához"
+
+#: ../backend/tabs/instance/general_options.php:119
+msgid "Max. results"
+msgstr "Eredmények maximális száma"
+
+#: ../backend/tabs/instance/general_options.php:124
+msgid "Results box viewport (in item numbers)"
+msgstr "Eredménydoboz mérete (elemszám)"
+
+#: ../backend/tabs/instance/image_options.php:4
+msgid "Show images in results?"
+msgstr "Képek mutatása"
+
+#: ../backend/tabs/instance/image_options.php:13
+msgid "Image width"
+msgstr "Képszélesség"
+
+#: ../backend/tabs/instance/image_options.php:22
+msgid "Image height"
+msgstr "Képmagasság"
+
+#: ../backend/tabs/instance/image_options.php:33
+msgid "Primary image source"
+msgstr "Elsődleges képforrás"
+
+#: ../backend/tabs/instance/image_options.php:44
+msgid "Alternative image source 1"
+msgstr "Alternatív képforrás 1"
+
+#: ../backend/tabs/instance/image_options.php:55
+msgid "Alternative image source 2"
+msgstr "Alternatív képforrás 2"
+
+#: ../backend/tabs/instance/image_options.php:66
+msgid "Alternative image source 3"
+msgstr "Alternatív képforrás 3"
+
+#: ../backend/tabs/instance/image_options.php:77
+msgid "Alternative image source 4"
+msgstr "Alternatív képforrás 4"
+
+#: ../backend/tabs/instance/image_options.php:88
+msgid "Default image url"
+msgstr "Alapértelmezett kép URL"
+
+#: ../backend/tabs/instance/image_options.php:97
+msgid "Custom field containing the image"
+msgstr "Egyedi mező, amely a képet tartalmazza"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:3
+msgid "Sroll the window to the result list?"
+msgstr "Az ablak mozgatása az eredménylistához?"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:9
+msgid "Make the whole result area clickable?"
+msgstr "Tedd az eredménylista elemei egész részét kattinthatóvá"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:15
+msgid "Close result list on document click?"
+msgstr "Az eredménylista bezárása ha a felhasználó mellé kattint"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:21
+msgid "Show the close icon?"
+msgstr "Mutasd a bezárás ikont"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:26
+msgid "No results text"
+msgstr "Nincs eredmény szövege"
+
+#: ../backend/tabs/instance/layout/results_behaviour.php:30
+msgid "Did you mean text"
+msgstr "Úgy értette? szöveg"
+
+#: ../backend/tabs/instance/layout/results_layout.php:3
+msgid "Placeholder text"
+msgstr "A helykitöltő szövege"
+
+#: ../backend/tabs/instance/layout/results_layout.php:9
+msgid "Show 'More results..' text in the bottom of the search box?"
+msgstr "Mutasd a 'Még több eredmény' szöveget az eredménylista alján"
+
+#: ../backend/tabs/instance/layout/results_layout.php:15
+msgid "' Show more results..' text"
+msgstr "'Még több eredmény' szövege"
+
+#: ../backend/tabs/instance/layout/results_layout.php:21
+msgid "Show author in results?"
+msgstr "Mutasd a szerzőt az eredménylistában"
+
+#: ../backend/tabs/instance/layout/results_layout.php:27
+msgid "Show date in results?"
+msgstr "Mutasd a dátumot az eredménylistában"
+
+#: ../backend/tabs/instance/layout/results_layout.php:33
+msgid "Show description in results?"
+msgstr "Mutasd a post tartalmát az eredménylistában"
+
+#: ../backend/tabs/instance/layout/results_layout.php:39
+msgid "Description length"
+msgstr "Tartalom hossza"
+
+#: ../backend/tabs/instance/layout_options.php:2
+#: ../backend/tabs/instance/layout_options.php:8
+msgid "Results layout"
+msgstr "Megjelenés"
+
+#: ../backend/tabs/instance/layout_options.php:3
+#: ../backend/tabs/instance/layout_options.php:14
+msgid "Results Behaviour"
+msgstr "Viselkedés"
+
+#: ../includes/asl_init.class.php:15 ../includes/asl_init.class.php:16
+#: ../includes/asl_init.class.php:25
+msgid "Ajax Search Lite"
+msgstr "Ajax Search Lite"
+
+#: ../includes/asl_init.class.php:26
+msgid "Analytics Integration"
+msgstr "Analytics integráció"
+
+#: ../includes/bfi_thumb.php:145
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: ../includes/bfi_thumb.php:417
+msgid "Image negate failed."
+msgstr ""

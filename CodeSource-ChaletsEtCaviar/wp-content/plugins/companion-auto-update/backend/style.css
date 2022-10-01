@@ -1,0 +1,399 @@
+/* Default Stylings */
+.nowrap {
+	white-space: nowrap;
+}
+.cau_spacing {
+	height: 25px;
+}
+.cau_support_buttons {
+	display: inline-block;
+}
+
+/* Welcome screen */
+.welcome-to-cau {
+    background: #FFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    margin: 25px 0;
+    padding: 30px;
+    background-size: 140px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.welcome-to-cau.welcome-bg {
+    background-image: url('images/welcome.svg');
+}
+.welcome-to-cau.support-bg {
+    background-image: url('images/support.svg');
+}
+.welcome-to-cau.love-bg {
+    background-image: url('images/love.svg');
+}
+.welcome-to-cau h2 {
+	margin: 0;
+	margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.welcome-to-cau h3 {
+    font-size: 16px;
+}
+.welcome-to-cau a {
+	text-decoration: none;
+}
+.welcome-to-cau .welcome-column {
+	display: inline-block;
+	vertical-align: top;
+}
+.welcome-to-cau.cau-show-love .welcome-column {
+	vertical-align: middle;
+}
+.welcome-to-cau .welcome-column.welcome-column-first {
+	padding-left: 140px;
+	box-sizing: border-box;
+}
+.welcome-to-cau.cau-show-love .welcome-column.welcome-column-half:not(.welcome-column-first) {
+	text-align: right;
+}
+.welcome-to-cau .welcome-column.welcome-column-half {
+	width: 50%;
+}
+.welcome-to-cau .welcome-column.welcome-column-third {
+	width: 33%;
+}
+.welcome-to-cau .welcome-column.welcome-column-quarter {
+	width: 25%;
+}
+.welcome-to-cau a.minimal-button {
+	display: inline-block;
+	padding: 5px;
+}
+
+/* Dashboard */
+.cau-column-wide {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 450px);
+}
+.cau-column-small {
+	display: inline-block;
+	vertical-align: top;
+	width: 450px;
+}
+.cau-dashboard-box {
+	background-position: right bottom;
+}
+.cau-dashboard-box a {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+/* Table Styling */
+.widefat td {
+	vertical-align: middle!important;
+}
+table.autoupdate th.head-plugin {
+	min-width: 250px;
+}
+table.autoupdate th.head-status {
+	min-width: 150px;
+}
+table.autoupdate th.check-column {
+	position: relative;
+	min-width: 55px;
+}
+table.autoupdate tr.inactive {
+	background: #FEF7F1;
+}
+table.autoupdate tr.active .check-column {
+	border-left: 3px solid transparent;
+}
+table.autoupdate tr.inactive .check-column {
+	border-left: 3px solid #D54E21;
+}
+table.autoupdate tr.inactive td.column-status p {
+	color: #BF3D3C;
+}
+table.autoupdate tr.active td.column-status p {
+	color: #000;
+}
+table.autoupdate tr td.column-description p { 
+	overflow: hidden;
+	max-height: 18px;
+}
+
+/* Update Log */
+table.autoupdatelog {
+	margin-top: 25px;
+}
+table.autoupdatelog strong {
+	color: #000;
+}
+table.autoupdatelog .dashicons {
+	color: #00A0D2;
+}
+
+/* Status */
+table.cau_status_list {
+	margin-top: 25px;
+}
+.cau_enabled {
+	color: #7AD03A;
+}
+.cau_disabled {
+	color: #FF0000;
+}
+.cau_warning {
+	color: #FFBA00;
+}
+.cau_mobile_prefix {
+	display: none;
+}
+
+/* Rollback list */
+table.rollbacklist {
+	max-width: 650px;
+}
+table.rollbacklist td {
+	vertical-align: middle;
+}
+table.rollbacklist td a.versionselectbutton {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+/* Plugin list */
+.pluginListButtons {
+	display: block;
+	padding: 15px 0;
+}
+.pluginListButtons p.submit {
+	display: inline-block;
+	margin: 0!important;
+	padding: 0!important;
+}
+#the-list input[type="checkbox"]:not(:checked), #the-list input[type="checkbox"]:checked {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	display: block;
+	opacity: 0;
+}
+#the-list input[type="checkbox"]:not(:checked) + label, #the-list input[type="checkbox"]:checked + label {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	cursor: pointer;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before, #the-list input[type="checkbox"]:checked + label:before, #the-list input[type="checkbox"]:not(:checked) + label:after, #the-list input[type="checkbox"]:checked + label:after {
+	content: '';
+	position: absolute;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before, #the-list input[type="checkbox"]:checked + label:before {
+	left: 0; 
+	top: -3px;
+	width: 30px; 
+	height: 16px;
+	background: transparent;
+	border: 2px solid #0085BA;
+	border-radius: 15px;
+	transition: background-color .2s;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:after, #the-list input[type="checkbox"]:checked + label:after {
+	width: 8px; 
+	height: 8px;
+	transition: all .2s;
+	border-radius: 500px;
+	background: transparent;
+	border: 2px solid #0085BA;
+	top: 1px; 
+	left: 5px;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:before {
+ 	background: #0085BA; 
+	border: 2px solid #0085BA;
+}
+#the-list input[type="checkbox"]:not(:checked) + label:after {
+	background: #0085BA;
+	border-color: #FFF;
+	left: 18px;
+}
+
+/* Scheduling */
+.cau_schedule_input {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40px;
+}
+.cau_schedule_input input {
+	max-width: 100%;
+	text-align: center;
+}
+.cau_schedule_input_div {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 6px;
+	font-weight: bold;
+}
+.cau_shedule_notation {
+	display: inline-block;
+	vertical-align: middle;
+	width: 125px;
+	padding-left: 5px;
+}
+
+/* Custom buttons */
+.cau-button {
+	display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.2);
+	font-weight: 500;
+	font-size: 1.1em;
+	margin: 0 10px;
+}
+.cau-button:hover {
+	opacity: 0.9;
+}
+.cau-button .dashicons {
+	bottom: -2px;
+}
+.donate-button {
+	background-color: #9178B7;
+	border-color: #6B5887;
+	color: #FFF;
+}
+.rate-button {
+	background: #F7F7F7;
+	color: #735F91;
+}
+.donate-button:hover {
+	color: #FFF;
+}
+.rate-button:hover {
+	color: #735F91;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+
+	/* Basics */
+	.cau_hide_on_mobile, table.autoupdate thead {
+		display: none!important;
+	}
+	.form-table td fieldset p {
+		display: block;
+		padding: 5px 0;
+	}
+	.form-table td fieldset input[type="checkbox"] {
+		display: inline-block;
+		vertical-align: middle;
+		width: 25px;
+	}
+	.form-table td fieldset label {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+		padding-left: 5px;
+	}
+	.nav-tab-wrapper {
+		position: relative;
+		top: -20px;
+		border-bottom: 1px solid #CCC!important;
+		padding-bottom: 15px!important;
+		margin-bottom: 0px!important;
+	}
+	.nav-tab {
+		font-size: 12px;
+		margin: 5px 5px 0 0!important;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	/* Scheduling */
+	.cau_schedule_input {
+		width: 50px;
+	}
+
+	/* Custom buttons */
+	.cau-button {
+		display: block;
+		text-align: center;
+		margin: 5px 0;
+	}
+	.cau-button .dashicons {
+		float: left;
+	}
+
+	/* Welcome screen */
+	.welcome-to-cau {
+		background-position: right bottom;
+	}
+	.welcome-to-cau.love-bg {
+		background-image: none;
+	}
+	.welcome-to-cau .welcome-column {
+		min-width: 100%;
+	}
+	.welcome-to-cau .welcome-column.welcome-column-first {
+		padding-left: 0px;
+	}
+
+	/* Dashboard */
+	.majorMinorExplain {
+		display: none;
+	}
+	.cau-column-wide {
+		width: 100%;
+	}
+	.cau-column-small {
+		display: none;
+	}
+
+	/* Status */
+	table.cau_status_list .cau_status_name {
+		display: inline-block;
+		width: 50%;
+		box-sizing: border-box;
+		font-weight: 500;
+	}
+	table.cau_status_list .cau_status_interval {
+		display: none;
+	}
+	table.cau_status_list th.cau_status_next {
+		display: none;
+	}
+	table.cau_status_list td.cau_status_next {
+		display: block;
+		width: 100%;
+	}
+	table.cau_status_list .cau_status_active_state {
+		display: inline-block;
+		width: 50%;
+		box-sizing: border-box;
+		text-align: right;
+	}
+	.cau_mobile_prefix {
+		display: inline-block;
+		padding-right: 5px;
+	}
+	table.cau_status_list.cau_status_warnings td {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	table.cau_status_list.cau_status_warnings th.cau_plugin_issue_explain, table.cau_status_list.cau_status_warnings th.cau_plugin_issue_fixit {
+		display: none;
+	}
+	table.cau_status_list.cau_status_warnings td.cau_plugin_issue_name {
+		font-weight: 500;
+	}
+
+}

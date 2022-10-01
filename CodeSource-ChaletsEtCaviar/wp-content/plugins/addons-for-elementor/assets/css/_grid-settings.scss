@@ -1,0 +1,34 @@
+$neat-grid: (
+        columns: 12,
+        gutter: 20px,
+        direction: ltr,
+);
+
+$lae-tablet-grid: (
+        media: 480px,
+);
+
+$lae-desktop-grid: (
+        media: 801px,
+);
+
+$lae-gapless-grid: (
+        gutter: 0px,
+);
+
+$lae-five-col-grid: (
+        columns: 5,
+);
+
+$lae-gapless-five-col-grid: (
+        columns: 5,
+        gutter: 0px,
+);
+
+$lae-mobile-only-grid: (
+        media: "(max-width: 479px)",
+);
+
+$lae-tablet-only-grid: (
+        media: "(min-width:480px) and (max-width: 800px)",
+);

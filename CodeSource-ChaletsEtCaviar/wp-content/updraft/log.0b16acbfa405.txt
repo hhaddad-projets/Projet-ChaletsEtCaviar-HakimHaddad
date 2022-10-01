@@ -1,0 +1,417 @@
+0000.000 (0) Opened log file at time: Mon, 21 Jan 2019 08:47:19 +0000 on https://hakimhaddad-projets.fr/chalets-et-caviar
+0000.069 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.4 WP: 5.0.3 PHP: 7.0.33 (litespeed, Linux kilo.o2switch.net 3.10.0-714.10.2.lve1.5.10.el6h.x86_64 #1 SMP Mon Jan 22 17:29:25 EST 2018 x86_64) MySQL: 10.2.19-MariaDB-cll-lve WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 31M | 32M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.147 (0) Free space on disk containing Updraft's temporary directory: 448365.1 MB
+0000.171 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.171 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.180 (0) Semaphore (fd, wp_options) being initialised
+0000.182 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.184 (0) Set semaphore last lock (fd) time to 2019-01-21 08:47:19
+0000.185 (0) Semaphore lock (fd) complete
+0000.188 (0) Backup run: resumption=0, nonce=0b16acbfa405, file_nonce=0b16acbfa405 begun at=1548060439 (0s ago), job type=backup
+0000.189 (0) Scheduling a resumption (1) after 300 seconds (1548060739) in case this run gets aborted
+0000.198 (0) Checking if we have a zip executable available
+0000.199 (0) Testing: /usr/bin/zip
+0000.204 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.205 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.205 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.206 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.206 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.211 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.211 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.218 (0) Working binary zip found: /usr/bin/zip
+0000.219 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.219 (0) Creation of backups of directories: beginning
+0000.221 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.954 (0) Total entities for the zip file: 794 directories, 4793 files (0 skipped as non-modified), 93.8 MB
+0000.958 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.961 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.964 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.967 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.970 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.971 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.7 MB, 4793 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.276 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: size is now: 4.30 MB
+0002.283 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 600 files added (on-disk size: 4402.6 KB)
+0002.288 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 700 files added (on-disk size: 4402.6 KB)
+0002.292 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 800 files added (on-disk size: 4402.6 KB)
+0002.295 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 900 files added (on-disk size: 4402.6 KB)
+0002.298 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1000 files added (on-disk size: 4402.6 KB)
+0002.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.7 MB, 4793 files batched, 501 (1002) added so far); re-opening (prior size: 4402.6 KB)
+0003.556 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: size is now: 8.80 MB
+0003.561 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1100 files added (on-disk size: 9043.9 KB)
+0003.564 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1200 files added (on-disk size: 9043.9 KB)
+0003.568 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1300 files added (on-disk size: 9043.9 KB)
+0003.571 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1400 files added (on-disk size: 9043.9 KB)
+0003.574 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1500 files added (on-disk size: 9043.9 KB)
+0003.575 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 4793 files batched, 501 (1503) added so far); re-opening (prior size: 9043.9 KB)
+0004.593 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1600 files added (on-disk size: 10841.3 KB)
+0004.596 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1700 files added (on-disk size: 10841.3 KB)
+0004.600 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1800 files added (on-disk size: 10841.3 KB)
+0004.603 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 1900 files added (on-disk size: 10841.3 KB)
+0004.607 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2000 files added (on-disk size: 10841.3 KB)
+0004.607 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 4793 files batched, 501 (2004) added so far); re-opening (prior size: 10841.3 KB)
+0004.916 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2100 files added (on-disk size: 11662.9 KB)
+0004.920 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2200 files added (on-disk size: 11662.9 KB)
+0004.923 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2300 files added (on-disk size: 11662.9 KB)
+0004.926 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2400 files added (on-disk size: 11662.9 KB)
+0004.929 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2500 files added (on-disk size: 11662.9 KB)
+0004.930 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 4793 files batched, 501 (2505) added so far); re-opening (prior size: 11662.9 KB)
+0005.464 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: size is now: 14.40 MB
+0005.468 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2600 files added (on-disk size: 14750 KB)
+0005.471 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2700 files added (on-disk size: 14750 KB)
+0005.474 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2800 files added (on-disk size: 14750 KB)
+0005.478 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 2900 files added (on-disk size: 14750 KB)
+0005.481 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3000 files added (on-disk size: 14750 KB)
+0005.481 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 4793 files batched, 501 (3006) added so far); re-opening (prior size: 14750 KB)
+0008.330 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: size is now: 17.80 MB
+0008.338 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3100 files added (on-disk size: 18243.6 KB)
+0008.343 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3200 files added (on-disk size: 18243.6 KB)
+0008.348 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3300 files added (on-disk size: 18243.6 KB)
+0008.354 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3400 files added (on-disk size: 18243.6 KB)
+0008.360 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3500 files added (on-disk size: 18243.6 KB)
+0008.361 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 4793 files batched, 501 (3507) added so far); re-opening (prior size: 18243.6 KB)
+0010.658 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3600 files added (on-disk size: 21474.9 KB)
+0010.661 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3700 files added (on-disk size: 21474.9 KB)
+0010.664 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3800 files added (on-disk size: 21474.9 KB)
+0010.668 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 3900 files added (on-disk size: 21474.9 KB)
+0010.671 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4000 files added (on-disk size: 21474.9 KB)
+0010.672 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.3 MB, 4793 files batched, 501 (4008) added so far); re-opening (prior size: 21474.9 KB)
+0015.268 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: size is now: 26.40 MB
+0015.273 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4100 files added (on-disk size: 27024 KB)
+0015.276 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4200 files added (on-disk size: 27024 KB)
+0015.279 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4300 files added (on-disk size: 27024 KB)
+0015.282 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4400 files added (on-disk size: 27024 KB)
+0015.286 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4500 files added (on-disk size: 27024 KB)
+0015.286 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 4793 files batched, 501 (4509) added so far); re-opening (prior size: 27024 KB)
+0018.233 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4600 files added (on-disk size: 30087.3 KB)
+0018.237 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip.tmp: 4700 files added (on-disk size: 30087.3 KB)
+0019.584 (0) Created plugins zip (0) - 30512.1 KB in 19.3 s (1580.3 KB/s) (sha1: 0100cdf7978b8cef85407a9055ae00db8cf5264e, sha256: 96bc7b14895db9c03dc2e48603bb39e84cb1b793e56aed9a42d2c4523cc8dfe5)
+0019.587 (0) Beginning creation of dump of themes (split every: 400 MB)
+0019.743 (0) Total entities for the zip file: 63 directories, 358 files (0 skipped as non-modified), 5.9 MB
+0019.749 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.752 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.756 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.474 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip.tmp: size is now: 2.00 MB
+0020.505 (0) Created themes zip (0) - 2090.4 KB in 0.9 s (2424.9 KB/s) (sha1: cc9598ea94b6a6c7a374e056e3ae7bb4edf8fcdd, sha256: cfaefef798c2f2923ce60da9d8d346b8c2480e10abc9fa85110c274111016103)
+0020.507 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.507 (0) Looking for candidates to backup in: /home/hhaddad/public_html/chalets-et-caviar/wp-content/uploads
+0020.508 (0) finding files: 2019: adding to list (1)
+0020.508 (0) finding files: ShortpixelBackups: adding to list (2)
+0020.509 (0) finding files: bstone: adding to list (3)
+0020.509 (0) finding files: .shortpixel-q-1: adding to list (4)
+0020.510 (0) finding files: fvm: adding to list (5)
+0020.510 (0) finding files: elementor: adding to list (6)
+0020.511 (0) finding files: 2018: adding to list (7)
+0020.511 (0) finding files: astra-sites: adding to list (8)
+0020.512 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.686 (0) Total entities for the zip file: 22 directories, 539 files (0 skipped as non-modified), 60.4 MB
+0020.689 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.693 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.693 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 539 files batched, 210 (210) added so far); re-opening (prior size: 0 KB)
+0027.106 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: size is now: 24.80 MB
+0027.108 (0) A useful amount of data was added after this amount of zip processing: 7.1 s (normalised: 7 s, rate: 3635.2 KB/s)
+0027.112 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: 300 files added (on-disk size: 25438.6 KB)
+0027.115 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: 400 files added (on-disk size: 25438.6 KB)
+0027.116 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 539 files batched, 206 (416) added so far); re-opening (prior size: 25438.6 KB)
+0037.945 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: size is now: 49.90 MB
+0037.993 (0) A useful amount of data was added after this amount of zip processing: 11 s (normalised: 11 s, rate: 2327.7 KB/s)
+0037.998 (0) Zip: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: 500 files added (on-disk size: 51125.3 KB)
+0044.620 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip.tmp: size is now: 60.00 MB
+0045.436 (0) Created uploads zip (0) - 61425.1 KB in 24.9 s (2469.8 KB/s) (sha1: 011dd67b1a95a8eae12a59feec7791e7e846bb5d, sha256: 8939dda24db76e0afb2519c19c28abb17d265b6f3770895e5dcfbcf40386c377)
+0045.438 (0) Beginning backup of other directories found in the content directory (index: 0)
+0045.439 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0045.439 (0) Looking for candidates to backup in: /home/hhaddad/public_html/chalets-et-caviar/wp-content
+0045.440 (0) finding files: updraft: skipping: this is the updraft directory
+0045.440 (0) finding files: cache: skipping: excluded by options
+0045.441 (0) finding files: w3tc-config: adding to list (1)
+0045.441 (0) finding files: plugins: skipping: this is the plugins directory
+0045.442 (0) finding files: .DS_Store: adding to list (2)
+0045.442 (0) finding files: upgrade: skipping: excluded by options
+0045.443 (0) finding files: themes: skipping: this is the themes directory
+0045.444 (0) finding files: languages: adding to list (3)
+0045.444 (0) finding files: uploads: skipping: this is the uploads directory
+0045.445 (0) finding files: index.php: adding to list (4)
+0045.517 (0) Total entities for the zip file: 4 directories, 47 files (0 skipped as non-modified), 3.4 MB
+0045.807 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip.tmp: size is now: 1.00 MB
+0045.825 (0) Created others zip (0) - 1010.8 KB in 0.3 s (3100.9 KB/s) (sha1: fa0ef9a7175c7c8b180ce95c177e46393bb4d79b, sha256: 371a90c898877558a6f781aaa59aa42e4dbbba129431db91dbbae7f7ef8b1c69)
+0045.829 (0) Saving backup status to database (elements: 8)
+0045.831 (0) Beginning creation of database dump (WordPress DB)
+0045.833 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0045.851 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1233 bytes total)
+0045.854 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0045.859 (0) Table wp_options: Total expected rows (approximate): 666
+0045.959 (0) Table wp_options: Total rows added: 673 in 0.10 seconds
+0045.960 (0) Table wp_options: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_options.table.gz - 148.1 KB)
+0045.962 (0) Table wp_users: Total expected rows (approximate): 4
+0045.964 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0045.965 (0) Table wp_users: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_users.table.gz - 0.9 KB)
+0045.968 (0) Table wp_usermeta: Total expected rows (approximate): 72
+0045.970 (0) Table wp_usermeta: Total rows added: 72 in 0.00 seconds
+0045.971 (0) Table wp_usermeta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_usermeta.table.gz - 2.9 KB)
+0045.974 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0045.976 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0045.976 (0) Table wp_commentmeta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0045.979 (0) Table wp_comments: Total expected rows (approximate): 0
+0045.982 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0045.983 (0) Table wp_comments: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_comments.table.gz - 0.5 KB)
+0045.985 (0) Table wp_links: Total expected rows (approximate): 0
+0045.988 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0045.988 (0) Table wp_links: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_links.table.gz - 0.4 KB)
+0045.991 (0) Table wp_postmeta: Total expected rows (approximate): 2252
+0046.136 (0) Table wp_postmeta: Total rows added: 3089 in 0.15 seconds
+0046.138 (0) Table wp_postmeta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_postmeta.table.gz - 223.2 KB)
+0046.140 (0) Table wp_posts: Total expected rows (approximate): 442
+0046.198 (0) Table wp_posts: Total rows added: 460 in 0.06 seconds
+0046.200 (0) Table wp_posts: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_posts.table.gz - 106 KB)
+0046.202 (0) Table wp_term_relationships: Total expected rows (approximate): 19
+0046.204 (0) Table wp_term_relationships: Total rows added: 19 in 0.00 seconds
+0046.205 (0) Table wp_term_relationships: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0046.207 (0) Table wp_term_taxonomy: Total expected rows (approximate): 7
+0046.209 (0) Table wp_term_taxonomy: Total rows added: 7 in 0.00 seconds
+0046.210 (0) Table wp_term_taxonomy: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0046.212 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0046.214 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0046.214 (0) Table wp_termmeta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_termmeta.table.gz - 0.4 KB)
+0046.217 (0) Table wp_terms: Total expected rows (approximate): 7
+0046.218 (0) Table wp_terms: Total rows added: 7 in 0.00 seconds
+0046.219 (0) Table wp_terms: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_terms.table.gz - 0.5 KB)
+0046.221 (0) Table wp_blc_filters: Total expected rows (approximate): 0
+0046.223 (0) Table wp_blc_filters: Total rows added: 0 in 0.00 seconds
+0046.224 (0) Table wp_blc_filters: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_filters.table.gz - 0.3 KB)
+0046.227 (0) Table wp_blc_instances: Total expected rows (approximate): 106
+0046.231 (0) Table wp_blc_instances: Total rows added: 106 in 0.00 seconds
+0046.232 (0) Table wp_blc_instances: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_instances.table.gz - 4.3 KB)
+0046.234 (0) Table wp_blc_links: Total expected rows (approximate): 60
+0046.240 (0) Table wp_blc_links: Total rows added: 60 in 0.00 seconds
+0046.240 (0) Table wp_blc_links: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_links.table.gz - 7.2 KB)
+0046.243 (0) Table wp_blc_synch: Total expected rows (approximate): 10
+0046.245 (0) Table wp_blc_synch: Total rows added: 10 in 0.00 seconds
+0046.246 (0) Table wp_blc_synch: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_synch.table.gz - 0.5 KB)
+0046.248 (0) Table wp_booking: Total expected rows (approximate): 0
+0046.250 (0) Table wp_booking: Total rows added: 0 in 0.00 seconds
+0046.251 (0) Table wp_booking: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_booking.table.gz - 0.4 KB)
+0046.253 (0) Table wp_bookingdates: Total expected rows (approximate): 0
+0046.255 (0) Table wp_bookingdates: Total rows added: 0 in 0.00 seconds
+0046.256 (0) Table wp_bookingdates: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_bookingdates.table.gz - 0.3 KB)
+0046.258 (0) Table wp_ewwwio_images: Total expected rows (approximate): 250
+0046.265 (0) Table wp_ewwwio_images: Total rows added: 250 in 0.01 seconds
+0046.266 (0) Table wp_ewwwio_images: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_ewwwio_images.table.gz - 8.2 KB)
+0046.268 (0) Table wp_ewwwio_queue: Total expected rows (approximate): 0
+0046.270 (0) Table wp_ewwwio_queue: Total rows added: 0 in 0.00 seconds
+0046.271 (0) Table wp_ewwwio_queue: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_ewwwio_queue.table.gz - 0.3 KB)
+0046.273 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 251
+0046.277 (0) Table wp_nf3_action_meta: Total rows added: 251 in 0.00 seconds
+0046.278 (0) Table wp_nf3_action_meta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_action_meta.table.gz - 2.7 KB)
+0046.281 (0) Table wp_nf3_actions: Total expected rows (approximate): 11
+0046.283 (0) Table wp_nf3_actions: Total rows added: 11 in 0.00 seconds
+0046.284 (0) Table wp_nf3_actions: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+0046.287 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0046.289 (0) Table wp_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0046.290 (0) Table wp_nf3_chunks: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_chunks.table.gz - 0.3 KB)
+0046.293 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 468
+0046.300 (0) Table wp_nf3_field_meta: Total rows added: 468 in 0.01 seconds
+0046.301 (0) Table wp_nf3_field_meta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_field_meta.table.gz - 4.1 KB)
+0046.304 (0) Table wp_nf3_fields: Total expected rows (approximate): 11
+0046.306 (0) Table wp_nf3_fields: Total rows added: 11 in 0.00 seconds
+0046.307 (0) Table wp_nf3_fields: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_fields.table.gz - 0.7 KB)
+0046.309 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 226
+0046.314 (0) Table wp_nf3_form_meta: Total rows added: 226 in 0.00 seconds
+0046.314 (0) Table wp_nf3_form_meta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_form_meta.table.gz - 2.8 KB)
+0046.317 (0) Table wp_nf3_forms: Total expected rows (approximate): 3
+0046.319 (0) Table wp_nf3_forms: Total rows added: 3 in 0.00 seconds
+0046.320 (0) Table wp_nf3_forms: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+0046.323 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0046.325 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0046.326 (0) Table wp_nf3_object_meta: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0046.328 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0046.335 (0) Table wp_nf3_objects: Total rows added: 0 in 0.01 seconds
+0046.335 (0) Table wp_nf3_objects: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+0046.338 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0046.340 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0046.341 (0) Table wp_nf3_relationships: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_relationships.table.gz - 0.3 KB)
+0046.344 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 3
+0046.348 (0) Table wp_nf3_upgrades: Total rows added: 3 in 0.00 seconds
+0046.349 (0) Table wp_nf3_upgrades: finishing file (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_upgrades.table.gz - 5.2 KB)
+0046.352 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_options.table.gz (1/31): adding to final database dump
+0046.392 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_users.table.gz (2/31): adding to final database dump
+0046.393 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_usermeta.table.gz (3/31): adding to final database dump
+0046.394 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_commentmeta.table.gz (4/31): adding to final database dump
+0046.395 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_comments.table.gz (5/31): adding to final database dump
+0046.396 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_links.table.gz (6/31): adding to final database dump
+0046.396 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_postmeta.table.gz (7/31): adding to final database dump
+0046.488 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_posts.table.gz (8/31): adding to final database dump
+0046.526 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_term_relationships.table.gz (9/31): adding to final database dump
+0046.527 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_term_taxonomy.table.gz (10/31): adding to final database dump
+0046.528 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_termmeta.table.gz (11/31): adding to final database dump
+0046.529 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_terms.table.gz (12/31): adding to final database dump
+0046.530 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_filters.table.gz (13/31): adding to final database dump
+0046.530 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_instances.table.gz (14/31): adding to final database dump
+0046.532 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_links.table.gz (15/31): adding to final database dump
+0046.534 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_blc_synch.table.gz (16/31): adding to final database dump
+0046.535 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_booking.table.gz (17/31): adding to final database dump
+0046.536 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_bookingdates.table.gz (18/31): adding to final database dump
+0046.537 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_ewwwio_images.table.gz (19/31): adding to final database dump
+0046.539 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_ewwwio_queue.table.gz (20/31): adding to final database dump
+0046.540 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_action_meta.table.gz (21/31): adding to final database dump
+0046.541 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_actions.table.gz (22/31): adding to final database dump
+0046.542 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_chunks.table.gz (23/31): adding to final database dump
+0046.543 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_field_meta.table.gz (24/31): adding to final database dump
+0046.545 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_fields.table.gz (25/31): adding to final database dump
+0046.546 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_form_meta.table.gz (26/31): adding to final database dump
+0046.547 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_forms.table.gz (27/31): adding to final database dump
+0046.548 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_object_meta.table.gz (28/31): adding to final database dump
+0046.549 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_objects.table.gz (29/31): adding to final database dump
+0046.550 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_relationships.table.gz (30/31): adding to final database dump
+0046.550 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db-table-wp_nf3_upgrades.table.gz (31/31): adding to final database dump
+0046.552 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz: finished writing out complete database file (496 KB)
+0046.564 (0) Total database tables backed up: 31 (backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz, size: 527463, sha256)
+0046.568 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0046.568 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0046.569 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0046.570 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip: others: This file has not yet been successfully uploaded: will queue
+0046.570 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz: db: This file has not yet been successfully uploaded: will queue
+0046.571 (0) Saving backup history. Total backup size: 93.3 MB
+0046.578 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0046.586 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0046.591 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-11249aea5796554d3c36b317a7b36a41)
+0050.056 (0) Google Drive: creating path: /UpdraftPlus
+0051.496 (0) Google Drive quota usage: used=850.8 MB, total=15360 MB, available=14509.2 MB
+0051.497 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip: Attempting to upload to Google Drive (into folder id: 1iqVcK4Q5v9WtPQaN-XLefpZQAwApA98X)
+0052.351 (0) Googledrive chunked upload: 3.4 % uploaded (1048576)
+0052.863 (0) Googledrive chunked upload: 6.7 % uploaded (2097152)
+0053.332 (0) Googledrive chunked upload: 10.1 % uploaded (3145728)
+0053.559 (0) Googledrive chunked upload: 13.4 % uploaded (4194304)
+0053.854 (0) Googledrive chunked upload: 16.8 % uploaded (5242880)
+0054.265 (0) Googledrive chunked upload: 20.1 % uploaded (6291456)
+0054.725 (0) Googledrive chunked upload: 23.5 % uploaded (7340032)
+0055.867 (0) Googledrive chunked upload: 26.8 % uploaded (8388608)
+0056.726 (0) Googledrive chunked upload: 30.2 % uploaded (9437184)
+0057.463 (0) Googledrive chunked upload: 33.6 % uploaded (10485760)
+0058.439 (0) Googledrive chunked upload: 36.9 % uploaded (11534336)
+0059.184 (0) Googledrive chunked upload: 40.3 % uploaded (12582912)
+0059.730 (0) Googledrive chunked upload: 43.6 % uploaded (13631488)
+0060.397 (0) Googledrive chunked upload: 47 % uploaded (14680064)
+0060.895 (0) Googledrive chunked upload: 50.3 % uploaded (15728640)
+0061.384 (0) Googledrive chunked upload: 53.7 % uploaded (16777216)
+0061.854 (0) Googledrive chunked upload: 57.1 % uploaded (17825792)
+0062.384 (0) Googledrive chunked upload: 60.4 % uploaded (18874368)
+0063.010 (0) Googledrive chunked upload: 63.8 % uploaded (19922944)
+0063.500 (0) Googledrive chunked upload: 67.1 % uploaded (20971520)
+0064.179 (0) Googledrive chunked upload: 70.5 % uploaded (22020096)
+0064.825 (0) Googledrive chunked upload: 73.8 % uploaded (23068672)
+0065.384 (0) Googledrive chunked upload: 77.2 % uploaded (24117248)
+0065.807 (0) Googledrive chunked upload: 80.5 % uploaded (25165824)
+0066.445 (0) Googledrive chunked upload: 83.9 % uploaded (26214400)
+0067.198 (0) Googledrive chunked upload: 87.3 % uploaded (27262976)
+0067.651 (0) Googledrive chunked upload: 90.6 % uploaded (28311552)
+0068.296 (0) Googledrive chunked upload: 94 % uploaded (29360128)
+0068.819 (0) Googledrive chunked upload: 97.3 % uploaded (30408704)
+0071.173 (0) Googledrive chunked upload: 100 % uploaded (30408704)
+0071.176 (0) OK: Archive backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip uploaded to Google Drive in 19.68 seconds
+0071.176 (0) Recording as successfully uploaded: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip
+0071.186 (0) Deleting local file: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-plugins.zip: OK
+0071.695 (0) Google Drive quota usage: used=880.6 MB, total=15360 MB, available=14479.4 MB
+0071.696 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip: Attempting to upload to Google Drive (into folder id: 1iqVcK4Q5v9WtPQaN-XLefpZQAwApA98X)
+0072.642 (0) Googledrive chunked upload: 49 % uploaded (1048576)
+0073.092 (0) Googledrive chunked upload: 98 % uploaded (2097152)
+0074.060 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0074.062 (0) OK: Archive backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip uploaded to Google Drive in 2.37 seconds
+0074.063 (0) Recording as successfully uploaded: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip
+0074.065 (0) Deleting local file: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-themes.zip: OK
+0074.341 (0) Google Drive quota usage: used=882.6 MB, total=15360 MB, available=14477.4 MB
+0074.342 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip: Attempting to upload to Google Drive (into folder id: 1iqVcK4Q5v9WtPQaN-XLefpZQAwApA98X)
+0075.237 (0) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0076.063 (0) Googledrive chunked upload: 3.3 % uploaded (2097152)
+0076.828 (0) Googledrive chunked upload: 5 % uploaded (3145728)
+0077.287 (0) Googledrive chunked upload: 6.7 % uploaded (4194304)
+0077.746 (0) Googledrive chunked upload: 8.3 % uploaded (5242880)
+0078.578 (0) Googledrive chunked upload: 10 % uploaded (6291456)
+0079.263 (0) Googledrive chunked upload: 11.7 % uploaded (7340032)
+0079.834 (0) Googledrive chunked upload: 13.3 % uploaded (8388608)
+0080.290 (0) Googledrive chunked upload: 15 % uploaded (9437184)
+0080.723 (0) Googledrive chunked upload: 16.7 % uploaded (10485760)
+0081.309 (0) Googledrive chunked upload: 18.3 % uploaded (11534336)
+0081.837 (0) Googledrive chunked upload: 20 % uploaded (12582912)
+0082.372 (0) Googledrive chunked upload: 21.7 % uploaded (13631488)
+0082.875 (0) Googledrive chunked upload: 23.3 % uploaded (14680064)
+0083.516 (0) Googledrive chunked upload: 25 % uploaded (15728640)
+0083.970 (0) Googledrive chunked upload: 26.7 % uploaded (16777216)
+0084.427 (0) Googledrive chunked upload: 28.3 % uploaded (17825792)
+0084.859 (0) Googledrive chunked upload: 30 % uploaded (18874368)
+0085.248 (0) Googledrive chunked upload: 31.7 % uploaded (19922944)
+0085.742 (0) Googledrive chunked upload: 33.3 % uploaded (20971520)
+0086.131 (0) Googledrive chunked upload: 35 % uploaded (22020096)
+0086.503 (0) Googledrive chunked upload: 36.7 % uploaded (23068672)
+0086.890 (0) Googledrive chunked upload: 38.3 % uploaded (24117248)
+0087.499 (0) Googledrive chunked upload: 40 % uploaded (25165824)
+0088.242 (0) Googledrive chunked upload: 41.7 % uploaded (26214400)
+0089.120 (0) Googledrive chunked upload: 43.3 % uploaded (27262976)
+0089.949 (0) Googledrive chunked upload: 45 % uploaded (28311552)
+0090.542 (0) Googledrive chunked upload: 46.7 % uploaded (29360128)
+0091.063 (0) Googledrive chunked upload: 48.3 % uploaded (30408704)
+0091.495 (0) Googledrive chunked upload: 50 % uploaded (31457280)
+0091.983 (0) Googledrive chunked upload: 51.7 % uploaded (32505856)
+0092.453 (0) Googledrive chunked upload: 53.3 % uploaded (33554432)
+0092.848 (0) Googledrive chunked upload: 55 % uploaded (34603008)
+0093.366 (0) Googledrive chunked upload: 56.7 % uploaded (35651584)
+0093.917 (0) Googledrive chunked upload: 58.3 % uploaded (36700160)
+0094.407 (0) Googledrive chunked upload: 60 % uploaded (37748736)
+0095.086 (0) Googledrive chunked upload: 61.7 % uploaded (38797312)
+0095.625 (0) Googledrive chunked upload: 63.3 % uploaded (39845888)
+0096.065 (0) Googledrive chunked upload: 65 % uploaded (40894464)
+0096.472 (0) Googledrive chunked upload: 66.7 % uploaded (41943040)
+0096.905 (0) Googledrive chunked upload: 68.3 % uploaded (42991616)
+0097.311 (0) Googledrive chunked upload: 70 % uploaded (44040192)
+0097.881 (0) Googledrive chunked upload: 71.7 % uploaded (45088768)
+0098.495 (0) Googledrive chunked upload: 73.4 % uploaded (46137344)
+0099.037 (0) Googledrive chunked upload: 75 % uploaded (47185920)
+0100.027 (0) Googledrive chunked upload: 76.7 % uploaded (48234496)
+0100.880 (0) Googledrive chunked upload: 78.4 % uploaded (49283072)
+0101.755 (0) Googledrive chunked upload: 80 % uploaded (50331648)
+0102.327 (0) Googledrive chunked upload: 81.7 % uploaded (51380224)
+0103.027 (0) Googledrive chunked upload: 83.4 % uploaded (52428800)
+0104.164 (0) Googledrive chunked upload: 85 % uploaded (53477376)
+0105.271 (0) Googledrive chunked upload: 86.7 % uploaded (54525952)
+0106.144 (0) Googledrive chunked upload: 88.4 % uploaded (55574528)
+0106.831 (0) Googledrive chunked upload: 90 % uploaded (56623104)
+0107.309 (0) Googledrive chunked upload: 91.7 % uploaded (57671680)
+0107.820 (0) Googledrive chunked upload: 93.4 % uploaded (58720256)
+0108.784 (0) Googledrive chunked upload: 95 % uploaded (59768832)
+0109.970 (0) Googledrive chunked upload: 96.7 % uploaded (60817408)
+0110.743 (0) Googledrive chunked upload: 98.4 % uploaded (61865984)
+0112.446 (0) Googledrive chunked upload: 100 % uploaded (61865984)
+0112.449 (0) OK: Archive backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip uploaded to Google Drive in 38.11 seconds
+0112.449 (0) Recording as successfully uploaded: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip
+0112.464 (0) Deleting local file: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-uploads.zip: OK
+0112.743 (0) Google Drive quota usage: used=942.6 MB, total=15360 MB, available=14417.4 MB
+0112.743 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip: Attempting to upload to Google Drive (into folder id: 1iqVcK4Q5v9WtPQaN-XLefpZQAwApA98X)
+0116.382 (0) Googledrive chunked upload: 100 % uploaded
+0116.385 (0) OK: Archive backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip uploaded to Google Drive in 3.64 seconds
+0116.386 (0) Recording as successfully uploaded: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip
+0116.388 (0) Deleting local file: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-others.zip: OK
+0116.748 (0) Google Drive quota usage: used=943.6 MB, total=15360 MB, available=14416.4 MB
+0116.749 (0) backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz: Attempting to upload to Google Drive (into folder id: 1iqVcK4Q5v9WtPQaN-XLefpZQAwApA98X)
+0118.611 (0) Googledrive chunked upload: 100 % uploaded
+0118.614 (0) OK: Archive backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz uploaded to Google Drive in 1.86 seconds
+0118.614 (0) Recording as successfully uploaded: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz
+0118.616 (0) Deleting local file: backup_2019-01-21-0947_Chalets_amp_Caviar_0b16acbfa405-db.gz: OK
+0118.617 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=9999, retain_db=9999
+0118.618 (0) Number of backup sets in history: 1; groups (db): 1
+0118.619 (0) Examining (for databases) backup set with group_id=0, nonce=0b16acbfa405, datestamp=1548060439 (Jan 21 2019 08:47:19)
+0118.619 (0) This backup set is the backup set just made, so will not be deleted.
+0118.620 (0) Number of backup sets in history: 1; groups (files): 1
+0118.620 (0) Examining (for files) backup set with nonce=0b16acbfa405, datestamp=1548060439 (Jan 21 2019 08:47:19)
+0118.620 (0) This backup set is the backup set just made, so will not be deleted.
+0118.621 (0) This backup set is the backup set just made, so will not be deleted.
+0118.621 (0) This backup set is the backup set just made, so will not be deleted.
+0118.621 (0) This backup set is the backup set just made, so will not be deleted.
+0118.621 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.621 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0118.623 (0) Resume backup (0b16acbfa405, 0): finish run
+0118.625 (0) Decremented the semaphore (fd) by 1
+0118.626 (0) Semaphore (fd) unlocked
+0118.627 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0118.629 (0) The backup apparently succeeded and is now complete
+0118.629 (0) Fetching RSS news feed
+0119.460 (0) Fetched RSS news feed; result is a: SimplePie
+0119.480 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: conta...
+0119.734 (0) La sauvegarde a réussie. Elle est maintenant terminée.

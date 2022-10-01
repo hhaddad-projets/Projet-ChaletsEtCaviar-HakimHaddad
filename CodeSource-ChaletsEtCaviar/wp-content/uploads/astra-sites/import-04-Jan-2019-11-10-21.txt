@@ -1,0 +1,261 @@
+
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: Darwin
+Software 		: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.10 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+MySQL version 		: 5.7.23
+XML Reader 		: Yes
+PHP Version 		: 7.2.10
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 8 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: Europe/Paris
+
+-----
+
+Importing Started! - 11:11:19 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+
+1. Imported "Customizer Settings"  - 11:11:20 UTC
+
+---
+
+2. Importing "XML"  - 11:11:21 UTC
+Imported "Uncategorized" (category)
+Term 1 remapped to 2
+Imported "Top Navigation" (nav_menu)
+Term 6 remapped to 3
+Failed to import astra-site-page-builder Beaver Builder
+Taxonomie non valide.
+Failed to import astra-site-page-builder Brizy
+Taxonomie non valide.
+Failed to import astra-site-page-builder Elementor
+Taxonomie non valide.
+Failed to import astra-sites-type Free
+Taxonomie non valide.
+Imported "page" (elementor_library_type)
+Term 7 remapped to 4
+Failed to import astra-sites-type Premium
+Taxonomie non valide.
+Imported "section" (elementor_library_type)
+Term 8 remapped to 5
+Imported "Contact form" (Formulaire de contact)
+Post 4 remapped to 8
+Imported "Home" (Page)
+Post 5 remapped to 9
+Imported "Gallery" (Page)
+Post 6 remapped to 10
+Imported "Events" (Page)
+Post 7 remapped to 11
+Imported "Contact" (Page)
+Post 8 remapped to 12
+Imported "home-bg-free-img" (Fichier média)
+Post 15 remapped to 15
+Imported "favicon-free-img" (Fichier média)
+Post 18 remapped to 18
+Imported "" (Élément de menu de navigation)
+Post 27 remapped to 27
+Processing menu item post_type
+Menu item 5 mapped to 9
+Imported "" (Élément de menu de navigation)
+Post 28 remapped to 28
+Processing menu item post_type
+Menu item 6 mapped to 10
+Imported "" (Élément de menu de navigation)
+Post 29 remapped to 29
+Processing menu item post_type
+Menu item 7 mapped to 11
+Imported "" (Élément de menu de navigation)
+Post 30 remapped to 30
+Processing menu item post_type
+Menu item 8 mapped to 12
+Imported "site-logo@2x-free-img" (Fichier média)
+Post 34 remapped to 34
+Imported "site-logo-free-img" (Fichier média)
+Post 35 remapped to 35
+Imported "latest-event-free-img" (Fichier média)
+Post 38 remapped to 38
+Imported "post-1-free-img" (Fichier média)
+Post 39 remapped to 39
+Imported "post-2-free-img" (Fichier média)
+Post 41 remapped to 41
+Imported "post-3-free-img" (Fichier média)
+Post 42 remapped to 42
+Imported "new-sculptures-free-img" (Fichier média)
+Post 46 remapped to 46
+Imported "About Museum" (Page)
+Post 47 remapped to 47
+Imported "" (Élément de menu de navigation)
+Post 49 remapped to 49
+Processing menu item post_type
+Menu item 47 mapped to 47
+Imported "divider-free-img" (Fichier média)
+Post 56 remapped to 56
+Imported "history-1-free-img" (Fichier média)
+Post 57 remapped to 57
+Imported "history-2-free-img" (Fichier média)
+Post 59 remapped to 59
+Imported "history-4-free-img" (Fichier média)
+Post 61 remapped to 61
+Imported "events-bg-free-img" (Fichier média)
+Post 72 remapped to 72
+Imported "event-1-free-img" (Fichier média)
+Post 76 remapped to 76
+Imported "event-2-free-img" (Fichier média)
+Post 77 remapped to 77
+Imported "event-3-free-img" (Fichier média)
+Post 78 remapped to 78
+Imported "event-4-free-img" (Fichier média)
+Post 79 remapped to 79
+Imported "contact-bg-free-img" (Fichier média)
+Post 87 remapped to 87
+Imported "museum-astra-facebook-yoast-free-img" (Fichier média)
+Post 93 remapped to 93
+Running post-processing for post 8
+Could not find the author for "Contact form" (post #8)
+Post 8 was imported with author "harshadd", but could not be found
+Post 8 was marked for post-processing, but none was required.
+Running post-processing for post 9
+Could not find the author for "Home" (post #9)
+Post 9 was imported with author "harshadd", but could not be found
+Running post-processing for post 10
+Could not find the author for "Gallery" (post #10)
+Post 10 was imported with author "harshadd", but could not be found
+Running post-processing for post 11
+Could not find the author for "Events" (post #11)
+Post 11 was imported with author "harshadd", but could not be found
+Running post-processing for post 12
+Could not find the author for "Contact" (post #12)
+Post 12 was imported with author "harshadd", but could not be found
+Post 12 was marked for post-processing, but none was required.
+Running post-processing for post 15
+Could not find the author for "home-bg-free-img" (post #15)
+Post 15 was imported with author "harshadd", but could not be found
+Post 15 was marked for post-processing, but none was required.
+Running post-processing for post 18
+Could not find the author for "favicon-free-img" (post #18)
+Post 18 was imported with author "harshadd", but could not be found
+Post 18 was marked for post-processing, but none was required.
+Running post-processing for post 27
+Could not find the author for "" (post #27)
+Post 27 was imported with author "harshadd", but could not be found
+Post 27 was marked for post-processing, but none was required.
+Running post-processing for post 28
+Could not find the author for "" (post #28)
+Post 28 was imported with author "harshadd", but could not be found
+Post 28 was marked for post-processing, but none was required.
+Running post-processing for post 29
+Could not find the author for "" (post #29)
+Post 29 was imported with author "harshadd", but could not be found
+Post 29 was marked for post-processing, but none was required.
+Running post-processing for post 30
+Could not find the author for "" (post #30)
+Post 30 was imported with author "harshadd", but could not be found
+Post 30 was marked for post-processing, but none was required.
+Running post-processing for post 34
+Could not find the author for "site-logo@2x-free-img" (post #34)
+Post 34 was imported with author "harshadd", but could not be found
+Post 34 was marked for post-processing, but none was required.
+Running post-processing for post 35
+Could not find the author for "site-logo-free-img" (post #35)
+Post 35 was imported with author "harshadd", but could not be found
+Post 35 was marked for post-processing, but none was required.
+Running post-processing for post 38
+Could not find the author for "latest-event-free-img" (post #38)
+Post 38 was imported with author "harshadd", but could not be found
+Post 38 was marked for post-processing, but none was required.
+Running post-processing for post 39
+Could not find the author for "post-1-free-img" (post #39)
+Post 39 was imported with author "harshadd", but could not be found
+Post 39 was marked for post-processing, but none was required.
+Running post-processing for post 41
+Could not find the author for "post-2-free-img" (post #41)
+Post 41 was imported with author "harshadd", but could not be found
+Post 41 was marked for post-processing, but none was required.
+Running post-processing for post 42
+Could not find the author for "post-3-free-img" (post #42)
+Post 42 was imported with author "harshadd", but could not be found
+Post 42 was marked for post-processing, but none was required.
+Running post-processing for post 46
+Could not find the author for "new-sculptures-free-img" (post #46)
+Post 46 was imported with author "harshadd", but could not be found
+Post 46 was marked for post-processing, but none was required.
+Running post-processing for post 47
+Could not find the author for "About Museum" (post #47)
+Post 47 was imported with author "harshadd", but could not be found
+Running post-processing for post 49
+Could not find the author for "" (post #49)
+Post 49 was imported with author "harshadd", but could not be found
+Post 49 was marked for post-processing, but none was required.
+Running post-processing for post 56
+Could not find the author for "divider-free-img" (post #56)
+Post 56 was imported with author "harshadd", but could not be found
+Post 56 was marked for post-processing, but none was required.
+Running post-processing for post 57
+Could not find the author for "history-1-free-img" (post #57)
+Post 57 was imported with author "harshadd", but could not be found
+Post 57 was marked for post-processing, but none was required.
+Running post-processing for post 59
+Could not find the author for "history-2-free-img" (post #59)
+Post 59 was imported with author "harshadd", but could not be found
+Post 59 was marked for post-processing, but none was required.
+Running post-processing for post 61
+Could not find the author for "history-4-free-img" (post #61)
+Post 61 was imported with author "harshadd", but could not be found
+Post 61 was marked for post-processing, but none was required.
+Running post-processing for post 72
+Could not find the author for "events-bg-free-img" (post #72)
+Post 72 was imported with author "harshadd", but could not be found
+Post 72 was marked for post-processing, but none was required.
+Running post-processing for post 76
+Could not find the author for "event-1-free-img" (post #76)
+Post 76 was imported with author "harshadd", but could not be found
+Post 76 was marked for post-processing, but none was required.
+Running post-processing for post 77
+Could not find the author for "event-2-free-img" (post #77)
+Post 77 was imported with author "harshadd", but could not be found
+Post 77 was marked for post-processing, but none was required.
+Running post-processing for post 78
+Could not find the author for "event-3-free-img" (post #78)
+Post 78 was imported with author "harshadd", but could not be found
+Post 78 was marked for post-processing, but none was required.
+Running post-processing for post 79
+Could not find the author for "event-4-free-img" (post #79)
+Post 79 was imported with author "harshadd", but could not be found
+Post 79 was marked for post-processing, but none was required.
+Running post-processing for post 87
+Could not find the author for "contact-bg-free-img" (post #87)
+Post 87 was imported with author "harshadd", but could not be found
+Post 87 was marked for post-processing, but none was required.
+Running post-processing for post 93
+Could not find the author for "museum-astra-facebook-yoast-free-img" (post #93)
+Post 93 was imported with author "harshadd", but could not be found
+Post 93 was marked for post-processing, but none was required.
+
+---
+
+3. Imported "Site Options"  - 11:11:52 UTC
+
+---
+
+4. Importing "Widgets"  - 11:11:53 UTC
+Sidebar: sidebar-1
+Widget: "Rechercher" - Widget already exists
+Widget: "Articles récents" - Widget already exists
+Widget: "Commentaires récents" - Widget already exists
+Widget: "Archives" - Widget already exists
+Widget: "Catégories" - Widget already exists
+Widget: "Méta" - Widget already exists
+
+---
+
+Import Complete!  - 11:11:54 UTC
