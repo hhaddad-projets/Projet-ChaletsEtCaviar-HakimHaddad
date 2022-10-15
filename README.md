@@ -9,7 +9,7 @@ Dans le cadre d'un projet de parcours OpenClassrooms réalisé en 2019, il m'a f
 Le client était une agence immobilière de Courchevel qui voulait un site pour promouvoir
 la vente et la location de ses chalets.
 
-Le site que j'ai réalisé est consultable ici : hakimhaddad-projets.fr/chalets-et-caviar
+Le site que j'ai réalisé est consultable ici : https://hakimhaddad-projets.fr/chalets-et-caviar
 
 Ce projet a été soutenu et validé en soutenance vidéo sous la forme d'une présentation 
 devant le client. 
